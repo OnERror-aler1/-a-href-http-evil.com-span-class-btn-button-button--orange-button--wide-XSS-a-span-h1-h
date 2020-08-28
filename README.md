@@ -12,10 +12,7 @@ url=/chart_data%2Fmetric_charts%2Fsingle_metric.json...<redacted>&chart_title=ti
             fluid: true,
             loadingOverlay: true,
             snappable: true,
-            chart_title: "]>
-<svg onload="alert(document.domain);" height="16" width="16">
-  &elem;
-</svg>,
+            chart_title: "<Brute Data-Spy=scroll Data-Target='<Svg OnLoad=(confirm)(1)>'>",
             liveChart: false,
             dataApiUrl: '',
             zoom_url: '',
